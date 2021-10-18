@@ -1,0 +1,29 @@
+name: deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: install
+        run: |
+          npm i -g pnpm --registry=https://registry.npm.taobao.org
+          pnpm i --lockfile-only # https://pnpm.io/cli/install#tldr
+          pnpm install --registry=https://registry.npm.taobao
+          pnpm build
+      - name: Deploy static to github pagese 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
