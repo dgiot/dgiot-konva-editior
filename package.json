@@ -51,7 +51,7 @@
     "eslint": "6.8.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-prettier": "3.4.1",
-    "eslint-plugin-vue": "6.2.2",
+    "eslint-plugin-vue": "7.19.1",
     "husky": "4.3.8",
     "konva": "8.2.2",
     "lint-staged": "11.2.3",
