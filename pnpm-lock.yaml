@@ -21,7 +21,7 @@ specifiers:
   eslint-plugin-import: 2.25.2
   eslint-plugin-prettier: 3.4.1
   eslint-plugin-vue: 7.19.1
-  husky: 4.3.8
+  husky: 7.0.2
   konva: 8.2.2
   lint-staged: 11.2.3
   loadsh: 0.0.4
@@ -69,7 +69,7 @@ devDependencies:
   eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.25.2_eslint@6.8.0
   eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/3.4.1_eslint@6.8.0+prettier@2.4.1
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/7.19.1_eslint@6.8.0
-  husky: registry.nlark.com/husky/4.3.8
+  husky: registry.nlark.com/husky/7.0.2
   konva: registry.npmmirror.com/konva/8.2.2
   lint-staged: registry.npmmirror.com/lint-staged/11.2.3
   prettier: registry.nlark.com/prettier/2.4.1
@@ -3094,12 +3094,6 @@ packages:
     version: 1.6.0
     dev: true
 
-  registry.nlark.com/ci-info/2.0.0:
-    resolution: {integrity: sha1-Z6npZL4xpR4V5QENWObxKDQAL0Y=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/ci-info/download/ci-info-2.0.0.tgz}
-    name: ci-info
-    version: 2.0.0
-    dev: true
-
   registry.nlark.com/cipher-base/1.0.4:
     resolution: {integrity: sha1-h2Dk7MJy9MNjUy+SbYdKriwTl94=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/cipher-base/download/cipher-base-1.0.4.tgz}
     name: cipher-base
@@ -5079,15 +5073,6 @@ packages:
     version: 1.1.0
     dev: true
 
-  registry.nlark.com/find-versions/4.0.0:
-    resolution: {integrity: sha1-PFflc7+XdpuMuN8Wk0tieRXaSWU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/find-versions/download/find-versions-4.0.0.tgz}
-    name: find-versions
-    version: 4.0.0
-    engines: {node: '>=10'}
-    dependencies:
-      semver-regex: registry.npmmirror.com/semver-regex/3.1.3
-    dev: true
-
   registry.nlark.com/flat-cache/2.0.1:
     resolution: {integrity: sha1-XSltbwS9pEpGMKMBQTvbwuwIXsA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/flat-cache/download/flat-cache-2.0.1.tgz}
     name: flat-cache
@@ -5949,24 +5934,12 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  registry.nlark.com/husky/4.3.8:
-    resolution: {integrity: sha1-MRRAYL6WP9aFDlzI8Bmh3+GUKW0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/husky/download/husky-4.3.8.tgz}
+  registry.nlark.com/husky/7.0.2:
+    resolution: {integrity: sha1-IZANoPMBmazKQ6RsBDxK2Erojf8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/husky/download/husky-7.0.2.tgz}
     name: husky
-    version: 4.3.8
-    engines: {node: '>=10'}
+    version: 7.0.2
+    engines: {node: '>=12'}
     hasBin: true
-    requiresBuild: true
-    dependencies:
-      chalk: registry.nlark.com/chalk/4.1.2
-      ci-info: registry.nlark.com/ci-info/2.0.0
-      compare-versions: registry.npmmirror.com/compare-versions/3.6.0
-      cosmiconfig: registry.nlark.com/cosmiconfig/7.0.1
-      find-versions: registry.nlark.com/find-versions/4.0.0
-      opencollective-postinstall: registry.npmmirror.com/opencollective-postinstall/2.0.3
-      pkg-dir: registry.npmmirror.com/pkg-dir/5.0.0
-      please-upgrade-node: registry.nlark.com/please-upgrade-node/3.2.0
-      slash: registry.nlark.com/slash/3.0.0
-      which-pm-runs: registry.npmmirror.com/which-pm-runs/1.0.0
     dev: true
 
   registry.nlark.com/iconv-lite/0.4.24:
@@ -6961,15 +6934,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-locate: registry.nlark.com/p-locate/4.1.0
-    dev: true
-
-  registry.nlark.com/locate-path/6.0.0:
-    resolution: {integrity: sha1-VTIeswn+u8WcSAHZMackUqaB0oY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/locate-path/download/locate-path-6.0.0.tgz?cache=0&sync_timestamp=1631544439519&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flocate-path%2Fdownload%2Flocate-path-6.0.0.tgz}
-    name: locate-path
-    version: 6.0.0
-    engines: {node: '>=10'}
-    dependencies:
-      p-locate: registry.nlark.com/p-locate/5.0.0
     dev: true
 
   registry.nlark.com/lodash.clonedeep/4.5.0:
@@ -7987,15 +7951,6 @@ packages:
       p-try: registry.npmmirror.com/p-try/2.2.0
     dev: true
 
-  registry.nlark.com/p-limit/3.1.0:
-    resolution: {integrity: sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/p-limit/download/p-limit-3.1.0.tgz}
-    name: p-limit
-    version: 3.1.0
-    engines: {node: '>=10'}
-    dependencies:
-      yocto-queue: registry.nlark.com/yocto-queue/0.1.0
-    dev: true
-
   registry.nlark.com/p-locate/2.0.0:
     resolution: {integrity: sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/p-locate/download/p-locate-2.0.0.tgz}
     name: p-locate
@@ -8021,15 +7976,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-limit: registry.nlark.com/p-limit/2.3.0
-    dev: true
-
-  registry.nlark.com/p-locate/5.0.0:
-    resolution: {integrity: sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/p-locate/download/p-locate-5.0.0.tgz}
-    name: p-locate
-    version: 5.0.0
-    engines: {node: '>=10'}
-    dependencies:
-      p-limit: registry.nlark.com/p-limit/3.1.0
     dev: true
 
   registry.nlark.com/p-map/2.1.0:
@@ -11317,13 +11263,6 @@ packages:
     dev: true
     optional: true
 
-  registry.nlark.com/yocto-queue/0.1.0:
-    resolution: {integrity: sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/yocto-queue/download/yocto-queue-0.1.0.tgz}
-    name: yocto-queue
-    version: 0.1.0
-    engines: {node: '>=10'}
-    dev: true
-
   registry.nlark.com/yorkie/2.0.0:
     resolution: {integrity: sha1-kkEZEtQ1IU4SxRwq4Qk+VLa7g9k=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/yorkie/download/yorkie-2.0.0.tgz}
     name: yorkie
@@ -12157,12 +12096,6 @@ packages:
       strip-json-comments: registry.nlark.com/strip-json-comments/3.0.1
     dev: true
 
-  registry.npmmirror.com/compare-versions/3.6.0:
-    resolution: {integrity: sha1-GlaJkTaF5ah2N7jT/8p1UU7EHWI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/compare-versions/download/compare-versions-3.6.0.tgz}
-    name: compare-versions
-    version: 3.6.0
-    dev: true
-
   registry.npmmirror.com/compression-webpack-plugin/6.1.1_webpack@4.46.0:
     resolution: {integrity: sha1-ro5LL/23OWu3duZpGNdRog2Mzw4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/compression-webpack-plugin/download/compression-webpack-plugin-6.1.1.tgz}
     id: registry.npmmirror.com/compression-webpack-plugin/6.1.1
@@ -12557,16 +12490,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       locate-path: registry.nlark.com/locate-path/5.0.0
-      path-exists: registry.nlark.com/path-exists/4.0.0
-    dev: true
-
-  registry.npmmirror.com/find-up/5.0.0:
-    resolution: {integrity: sha1-TJKBnstwg1YeT0okCoa+UZj1Nvw=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/find-up/download/find-up-5.0.0.tgz?cache=0&sync_timestamp=1633681678430&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Ffind-up%2Fdownload%2Ffind-up-5.0.0.tgz}
-    name: find-up
-    version: 5.0.0
-    engines: {node: '>=10'}
-    dependencies:
-      locate-path: registry.nlark.com/locate-path/6.0.0
       path-exists: registry.nlark.com/path-exists/4.0.0
     dev: true
 
@@ -13036,13 +12959,6 @@ packages:
       is-wsl: registry.nlark.com/is-wsl/1.1.0
     dev: true
 
-  registry.npmmirror.com/opencollective-postinstall/2.0.3:
-    resolution: {integrity: sha1-eg//l49tv6TQBiOPusmO1BmMMlk=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/opencollective-postinstall/download/opencollective-postinstall-2.0.3.tgz}
-    name: opencollective-postinstall
-    version: 2.0.3
-    hasBin: true
-    dev: true
-
   registry.npmmirror.com/p-try/1.0.0:
     resolution: {integrity: sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/p-try/download/p-try-1.0.0.tgz}
     name: p-try
@@ -13112,15 +13028,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: registry.npmmirror.com/find-up/4.1.0
-    dev: true
-
-  registry.npmmirror.com/pkg-dir/5.0.0:
-    resolution: {integrity: sha1-oC1q6+a6EzqSj3Suwguv3+a452A=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pkg-dir/download/pkg-dir-5.0.0.tgz}
-    name: pkg-dir
-    version: 5.0.0
-    engines: {node: '>=10'}
-    dependencies:
-      find-up: registry.npmmirror.com/find-up/5.0.0
     dev: true
 
   registry.npmmirror.com/postcss-html/0.36.0_4f7b71a942b8b7a555b8adf78f88122b:
@@ -13302,13 +13209,6 @@ packages:
     hasBin: true
     dependencies:
       chokidar: registry.nlark.com/chokidar/3.5.2
-    dev: true
-
-  registry.npmmirror.com/semver-regex/3.1.3:
-    resolution: {integrity: sha1-srzG+X9jJp8oaZTil+IptiRdDcM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/semver-regex/download/semver-regex-3.1.3.tgz}
-    name: semver-regex
-    version: 3.1.3
-    engines: {node: '>=8'}
     dev: true
 
   registry.npmmirror.com/signal-exit/3.0.5:
@@ -13835,12 +13735,6 @@ packages:
       terser-webpack-plugin: registry.nlark.com/terser-webpack-plugin/1.4.5_webpack@4.46.0
       watchpack: registry.nlark.com/watchpack/1.7.5
       webpack-sources: registry.nlark.com/webpack-sources/1.4.3
-    dev: true
-
-  registry.npmmirror.com/which-pm-runs/1.0.0:
-    resolution: {integrity: sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/which-pm-runs/download/which-pm-runs-1.0.0.tgz}
-    name: which-pm-runs
-    version: 1.0.0
     dev: true
 
   registry.npmmirror.com/ws/6.2.2:
