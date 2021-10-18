@@ -1,26 +1,26 @@
 <template>
-    <div @dragstart="handleDragStart" class="component-list">
-        <div v-for="(item, index) in componentList" :key="index" class="list" draggable :data-index="index">
-            <span class="iconfont" :class="'icon-' + item.icon"></span>
-            <span>{{ item.label }}</span>
-        </div>
+  <div class="component-list" @dragstart="handleDragStart">
+    <div v-for="(item, index) in componentList" :key="index" :data-index="index" class="list" draggable>
+      <span :class="'icon-' + item.icon" class="iconfont"></span>
+      <span>{{ item.label }}</span>
     </div>
+  </div>
 </template>
 
 <script>
-import componentList from '@/custom-component/component-list';
+import componentList from "@/konva/components/component-list";
 
 export default {
-    data() {
-        return {
-            componentList,
-        };
+  data() {
+    return {
+      componentList,
+    };
+  },
+  methods: {
+    handleDragStart(e) {
+      e.dataTransfer.setData("index", e.target.dataset.index);
     },
-    methods: {
-        handleDragStart(e) {
-            e.dataTransfer.setData('index', e.target.dataset.index);
-        },
-    },
+  },
 };
 </script>
 

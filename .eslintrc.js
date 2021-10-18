@@ -223,5 +223,7 @@ module.exports = {
         'max-statements': 0, // 函数内最多有几个声明
         'no-bitwise': 0, // 不允许使用位运算符
         'no-plusplus': 0, // 不允许使用++ --运算符
+        // 允许props修改
+        'vue/no-mutating-props': 0,
     },
 }
