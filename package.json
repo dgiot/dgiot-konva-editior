@@ -34,7 +34,6 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "^3.1.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
@@ -43,12 +42,14 @@
     "@vue/eslint-config-airbnb": "^5.0.2",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "chalk": "^4.1.1",
     "commitizen": "^4.2.4",
     "compression-webpack-plugin": "^6.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.2.3",
     "konva": "^8.2.2",
