@@ -7,10 +7,10 @@
   "author": "h7ml(h7ml@qq.com)",
   "homepage": "https://github.com/dgiot/dgiot-konva-editior.git",
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lint:style": "stylelint **/*.{vue,scss} --fix",
+    "dev": "cross-env NODE_ENV='development' && vue-cli-service serve",
+    "build": "cross-env NODE_ENV='production' && vue-cli-service build",
+    "lint": "cross-env NODE_ENV='development' && vue-cli-service lint",
+    "lint:style": "cross-env NODE_ENV='development' && stylelint **/*.{vue,scss} --fix",
     "use:pmpm": "npm i -g pnpm --registry=https://registry.npm.taobao.org"
   },
   "repository": {
@@ -46,6 +46,7 @@
     "chalk": "^4.1.1",
     "commitizen": "^4.2.4",
     "compression-webpack-plugin": "^6.1.1",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
