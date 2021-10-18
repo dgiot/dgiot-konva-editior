@@ -29,7 +29,7 @@ specifiers:
   prettier: 2.4.1
   pushstate-server: 3.1.0
   sass: 1.43.2
-  sass-loader: 8.0.2
+  sass-loader: 12.2.0
   stylelint: 13.13.1
   stylelint-config-standard: 22.0.0
   stylelint-webpack-plugin: 3.0.1
@@ -55,7 +55,7 @@ devDependencies:
   '@vue/cli-plugin-eslint': registry.npmmirror.com/@vue/cli-plugin-eslint/4.5.14_41c3142a4da4107702f3978ecf4bc745
   '@vue/cli-plugin-router': registry.npmmirror.com/@vue/cli-plugin-router/4.5.14_@vue+cli-service@4.5.14
   '@vue/cli-plugin-vuex': registry.npmmirror.com/@vue/cli-plugin-vuex/4.5.14_@vue+cli-service@4.5.14
-  '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+  '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
   '@vue/eslint-config-airbnb': registry.npmmirror.com/@vue/eslint-config-airbnb/5.3.0_028296227d660594baf63e9b56bf1dc7
   '@vue/eslint-config-prettier': registry.nlark.com/@vue/eslint-config-prettier/6.0.0_bf649614f2c19d1264924ff3af71f45e
   babel-eslint: registry.nlark.com/babel-eslint/10.1.0_eslint@6.8.0
@@ -75,7 +75,7 @@ devDependencies:
   prettier: registry.nlark.com/prettier/2.4.1
   pushstate-server: registry.npmmirror.com/pushstate-server/3.1.0
   sass: registry.npmmirror.com/sass/1.43.2
-  sass-loader: registry.npmmirror.com/sass-loader/8.0.2_sass@1.43.2+webpack@4.46.0
+  sass-loader: registry.npmmirror.com/sass-loader/12.2.0_sass@1.43.2+webpack@4.46.0
   stylelint: registry.npmmirror.com/stylelint/13.13.1
   stylelint-config-standard: registry.npmmirror.com/stylelint-config-standard/22.0.0_stylelint@13.13.1
   stylelint-webpack-plugin: registry.npmmirror.com/stylelint-webpack-plugin/3.0.1_stylelint@13.13.1+webpack@4.46.0
@@ -3196,17 +3196,6 @@ packages:
       string-width: registry.npmmirror.com/string-width/4.2.3
       strip-ansi: registry.npmmirror.com/strip-ansi/6.0.1
       wrap-ansi: registry.nlark.com/wrap-ansi/7.0.0
-    dev: true
-
-  registry.nlark.com/clone-deep/4.0.1:
-    resolution: {integrity: sha1-wZ/Zvbv4WUK0/ZechNz31fB8I4c=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/clone-deep/download/clone-deep-4.0.1.tgz}
-    name: clone-deep
-    version: 4.0.1
-    engines: {node: '>=6'}
-    dependencies:
-      is-plain-object: registry.nlark.com/is-plain-object/2.0.4
-      kind-of: registry.nlark.com/kind-of/6.0.3
-      shallow-clone: registry.nlark.com/shallow-clone/3.0.1
     dev: true
 
   registry.nlark.com/clone/1.0.4:
@@ -6824,6 +6813,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  registry.nlark.com/klona/2.0.4:
+    resolution: {integrity: sha1-e7Hjr/sMuGJFR+9+j2cI6i4538A=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/klona/download/klona-2.0.4.tgz}
+    name: klona
+    version: 2.0.4
+    engines: {node: '>= 8'}
+    dev: true
+
   registry.nlark.com/launch-editor-middleware/2.2.1:
     resolution: {integrity: sha1-4UsH5scVSwpLhqD9NFeE5FgEwVc=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/launch-editor-middleware/download/launch-editor-middleware-2.2.1.tgz}
     name: launch-editor-middleware
@@ -9662,15 +9658,6 @@ packages:
       safe-buffer: registry.nlark.com/safe-buffer/5.2.1
     dev: true
 
-  registry.nlark.com/shallow-clone/3.0.1:
-    resolution: {integrity: sha1-jymBrZJTH1UDWwH7IwdppA4C76M=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/shallow-clone/download/shallow-clone-3.0.1.tgz}
-    name: shallow-clone
-    version: 3.0.1
-    engines: {node: '>=8'}
-    dependencies:
-      kind-of: registry.nlark.com/kind-of/6.0.3
-    dev: true
-
   registry.nlark.com/shebang-command/1.2.0:
     resolution: {integrity: sha1-RKrGW2lbAzmJaMOfNj/uXer98eo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/shebang-command/download/shebang-command-1.2.0.tgz}
     name: shebang-command
@@ -11698,7 +11685,7 @@ packages:
     dependencies:
       '@babel/core': registry.npmmirror.com/@babel/core/7.15.8
       '@vue/babel-preset-app': registry.npmmirror.com/@vue/babel-preset-app/4.5.14_vue@2.6.14
-      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
       '@vue/cli-shared-utils': registry.npmmirror.com/@vue/cli-shared-utils/4.5.14
       babel-loader: registry.nlark.com/babel-loader/8.2.2_7f185b6b63b1b293762538aa414d8c1b
       cache-loader: registry.nlark.com/cache-loader/4.1.0_webpack@4.46.0
@@ -11720,7 +11707,7 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0 < 7.0.0'
     dependencies:
-      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
       '@vue/cli-shared-utils': registry.npmmirror.com/@vue/cli-shared-utils/4.5.14
       eslint: registry.npmmirror.com/eslint/6.8.0
       eslint-loader: registry.nlark.com/eslint-loader/2.2.1_eslint@6.8.0+webpack@4.46.0
@@ -11741,7 +11728,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
       '@vue/cli-shared-utils': registry.npmmirror.com/@vue/cli-shared-utils/4.5.14
     dev: true
 
@@ -11753,10 +11740,10 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
     dev: true
 
-  registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d:
+  registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7:
     resolution: {integrity: sha1-KEziUi+pG3qaEgU3Gs45wDF+ny8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/cli-service/download/@vue/cli-service-4.5.14.tgz}
     id: registry.npmmirror.com/@vue/cli-service/4.5.14
     name: '@vue/cli-service'
@@ -11831,7 +11818,7 @@ packages:
       pnp-webpack-plugin: registry.nlark.com/pnp-webpack-plugin/1.7.0
       portfinder: registry.nlark.com/portfinder/1.0.28
       postcss-loader: registry.npmmirror.com/postcss-loader/3.0.0
-      sass-loader: registry.npmmirror.com/sass-loader/8.0.2_sass@1.43.2+webpack@4.46.0
+      sass-loader: registry.npmmirror.com/sass-loader/12.2.0_sass@1.43.2+webpack@4.46.0
       ssri: registry.nlark.com/ssri/8.0.1
       terser-webpack-plugin: registry.nlark.com/terser-webpack-plugin/1.4.5_webpack@4.46.0
       thread-loader: registry.nlark.com/thread-loader/2.1.3_webpack@4.46.0
@@ -11881,7 +11868,7 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0 || ^5.0.0-0
       eslint: ^5.16.0 || ^6.1.0 || ^7.2.0
     dependencies:
-      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
+      '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_b30777edbbb461a01db26bdc870648f7
       eslint: registry.npmmirror.com/eslint/6.8.0
       eslint-config-airbnb-base: registry.npmmirror.com/eslint-config-airbnb-base/14.2.1_37b86dd33773d179eb9b6b4db5f359d9
       eslint-import-resolver-node: registry.nlark.com/eslint-import-resolver-node/0.3.6
@@ -13173,17 +13160,17 @@ packages:
       tslib: registry.nlark.com/tslib/1.14.1
     dev: true
 
-  registry.npmmirror.com/sass-loader/8.0.2_sass@1.43.2+webpack@4.46.0:
-    resolution: {integrity: sha1-3r7NjDziQ8dkVPLoKQSCFQOACQ0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sass-loader/download/sass-loader-8.0.2.tgz?cache=0&sync_timestamp=1634046082937&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsass-loader%2Fdownload%2Fsass-loader-8.0.2.tgz}
-    id: registry.npmmirror.com/sass-loader/8.0.2
+  registry.npmmirror.com/sass-loader/12.2.0_sass@1.43.2+webpack@4.46.0:
+    resolution: {integrity: sha1-s3ABD7Crq64u+cbIngXWxt68YEI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sass-loader/download/sass-loader-12.2.0.tgz?cache=0&sync_timestamp=1634046082937&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsass-loader%2Fdownload%2Fsass-loader-12.2.0.tgz}
+    id: registry.npmmirror.com/sass-loader/12.2.0
     name: sass-loader
-    version: 8.0.2
-    engines: {node: '>= 8.9.0'}
+    version: 12.2.0
+    engines: {node: '>= 12.13.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
-      node-sass: ^4.0.0
+      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
       sass: ^1.3.0
-      webpack: ^4.36.0 || ^5.0.0
+      webpack: ^5.0.0
     peerDependenciesMeta:
       fibers:
         optional: true
@@ -13192,12 +13179,9 @@ packages:
       sass:
         optional: true
     dependencies:
-      clone-deep: registry.nlark.com/clone-deep/4.0.1
-      loader-utils: registry.nlark.com/loader-utils/1.4.0
+      klona: registry.nlark.com/klona/2.0.4
       neo-async: registry.nlark.com/neo-async/2.6.2
       sass: registry.npmmirror.com/sass/1.43.2
-      schema-utils: registry.nlark.com/schema-utils/2.7.1
-      semver: registry.nlark.com/semver/6.3.0
       webpack: registry.npmmirror.com/webpack/4.46.0
     dev: true
 
