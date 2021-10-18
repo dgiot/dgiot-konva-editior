@@ -19,7 +19,7 @@ specifiers:
   element-ui: ^2.14.1
   eslint: ^6.8.0
   eslint-plugin-import: ^2.20.2
-  eslint-plugin-prettier: ^3.1.4
+  eslint-plugin-prettier: 4.0.0
   eslint-plugin-vue: ^6.2.2
   husky: ^4.2.3
   konva: ^8.2.2
@@ -57,7 +57,7 @@ devDependencies:
   '@vue/cli-plugin-vuex': registry.npmmirror.com/@vue/cli-plugin-vuex/4.5.14_@vue+cli-service@4.5.14
   '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/4.5.14_0f25d1aa8415e98c3e62a4178f3c555d
   '@vue/eslint-config-airbnb': registry.nlark.com/@vue/eslint-config-airbnb/5.3.0_028296227d660594baf63e9b56bf1dc7
-  '@vue/eslint-config-prettier': 6.0.0_bf649614f2c19d1264924ff3af71f45e
+  '@vue/eslint-config-prettier': 6.0.0_8d564094b8f4c78c754806f350754d0a
   babel-eslint: 10.1.0_eslint@6.8.0
   babel-plugin-transform-remove-console: registry.nlark.com/babel-plugin-transform-remove-console/6.9.4
   chalk: registry.nlark.com/chalk/4.1.2
@@ -67,7 +67,7 @@ devDependencies:
   cz-conventional-changelog: 3.3.0
   eslint: registry.npmmirror.com/eslint/6.8.0
   eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.25.2_eslint@6.8.0
-  eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/3.4.1_eslint@6.8.0+prettier@2.4.1
+  eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/4.0.0_eslint@6.8.0+prettier@2.4.1
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/6.2.2_eslint@6.8.0
   husky: registry.nlark.com/husky/4.3.8
   konva: registry.npmmirror.com/konva/8.2.2
@@ -390,7 +390,7 @@ packages:
       camelcase: 5.3.1
     dev: true
 
-  /@vue/eslint-config-prettier/6.0.0_bf649614f2c19d1264924ff3af71f45e:
+  /@vue/eslint-config-prettier/6.0.0_8d564094b8f4c78c754806f350754d0a:
     resolution: {integrity: sha1-rVkSswj0rkaEWOAqKwXbC50kZwA=, tarball: '@vue/eslint-config-prettier/download/@vue/eslint-config-prettier-6.0.0.tgz'}
     peerDependencies:
       eslint: '>= 5.0.0'
@@ -399,7 +399,7 @@ packages:
     dependencies:
       eslint: registry.npmmirror.com/eslint/6.8.0
       eslint-config-prettier: registry.nlark.com/eslint-config-prettier/6.15.0_eslint@6.8.0
-      eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/3.4.1_eslint@6.8.0+prettier@2.4.1
+      eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/4.0.0_eslint@6.8.0+prettier@2.4.1
       prettier: registry.nlark.com/prettier/2.4.1
     dev: true
 
@@ -1681,16 +1681,6 @@ packages:
       minimalistic-crypto-utils: 1.0.1
     dev: true
 
-  /emojis-list/2.1.0:
-    resolution: {integrity: sha1-TapNnbAPmBmIDHn6RXrlsJof04k=, tarball: emojis-list/download/emojis-list-2.1.0.tgz}
-    engines: {node: '>= 0.10'}
-    dev: true
-
-  /emojis-list/3.0.0:
-    resolution: {integrity: sha1-VXBmIEatKeLpFucariYKvf9Pang=, tarball: emojis-list/download/emojis-list-3.0.0.tgz}
-    engines: {node: '>= 4'}
-    dev: true
-
   /encodeurl/1.0.2:
     resolution: {integrity: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=, tarball: encodeurl/download/encodeurl-1.0.2.tgz}
     engines: {node: '>= 0.8'}
@@ -1963,10 +1953,6 @@ packages:
     resolution: {integrity: sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=, tarball: fast-deep-equal/download/fast-deep-equal-3.1.3.tgz}
     dev: true
 
-  /fast-diff/1.2.0:
-    resolution: {integrity: sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=, tarball: fast-diff/download/fast-diff-1.2.0.tgz}
-    dev: true
-
   /fast-json-stable-stringify/2.1.0:
     resolution: {integrity: sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM=, tarball: fast-json-stable-stringify/download/fast-json-stable-stringify-2.1.0.tgz}
     dev: true
@@ -2148,24 +2134,6 @@ packages:
     resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=, tarball: fs.realpath/download/fs.realpath-1.0.0.tgz}
     dev: true
 
-  /fsevents/1.2.13:
-    resolution: {integrity: sha1-8yXLBFVZJCi88Rs4M3DvcOO/zDg=, tarball: fsevents/download/fsevents-1.2.13.tgz?cache=0&sync_timestamp=1612537044236&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffsevents%2Fdownload%2Ffsevents-1.2.13.tgz}
-    engines: {node: '>= 4.0'}
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
-    requiresBuild: true
-    dependencies:
-      bindings: 1.5.0
-      nan: registry.nlark.com/nan/2.15.0
-    dev: true
-    optional: true
-
-  /fsevents/2.3.2:
-    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: fsevents/download/fsevents-2.3.2.tgz?cache=0&sync_timestamp=1612537044236&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffsevents%2Fdownload%2Ffsevents-2.3.2.tgz}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /function-bind/1.1.1:
     resolution: {integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=, tarball: function-bind/download/function-bind-1.1.1.tgz}
     dev: true
@@ -2298,7 +2266,7 @@ packages:
     engines: {node: '>=0.6.0'}
     hasBin: true
     dependencies:
-      minimist: 1.2.5
+      minimist: registry.nlark.com/minimist/1.2.5
     dev: true
 
   /gzip-size/5.1.1:
@@ -2957,24 +2925,12 @@ packages:
     resolution: {integrity: sha1-f8EON1/FrkLEcFpcwKpvYr4wW4E=, tarball: json3/download/json3-3.3.3.tgz}
     dev: true
 
-  /json5/0.5.1:
-    resolution: {integrity: sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=, tarball: json5/download/json5-0.5.1.tgz}
-    hasBin: true
-    dev: true
-
-  /json5/1.0.1:
-    resolution: {integrity: sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=, tarball: json5/download/json5-1.0.1.tgz}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.5
-    dev: true
-
   /json5/2.2.0:
     resolution: {integrity: sha1-Lf7+cgxrpSXZ69kJlQ8FFTFsiaM=, tarball: json5/download/json5-2.2.0.tgz}
     engines: {node: '>=6'}
     hasBin: true
     dependencies:
-      minimist: 1.2.5
+      minimist: registry.nlark.com/minimist/1.2.5
     dev: true
 
   /jsonfile/4.0.0:
@@ -3062,8 +3018,8 @@ packages:
     resolution: {integrity: sha1-+G5jdNQyBabmxg6RlvF8Apm/s0g=, tarball: loader-utils/download/loader-utils-0.2.17.tgz}
     dependencies:
       big.js: registry.nlark.com/big.js/3.2.0
-      emojis-list: 2.1.0
-      json5: 0.5.1
+      emojis-list: registry.nlark.com/emojis-list/2.1.0
+      json5: registry.nlark.com/json5/0.5.1
       object-assign: 4.1.1
     dev: true
 
@@ -3072,19 +3028,9 @@ packages:
     engines: {node: '>=4.0.0'}
     dependencies:
       big.js: registry.nlark.com/big.js/5.2.2
-      emojis-list: 3.0.0
-      json5: 1.0.1
+      emojis-list: registry.nlark.com/emojis-list/3.0.0
+      json5: registry.nlark.com/json5/1.0.1
     dev: true
-
-  /loader-utils/2.0.0:
-    resolution: {integrity: sha1-5MrOW4FtQloWa18JfhDNErNgZLA=, tarball: loader-utils/download/loader-utils-2.0.0.tgz}
-    engines: {node: '>=8.9.0'}
-    dependencies:
-      big.js: registry.nlark.com/big.js/5.2.2
-      emojis-list: 3.0.0
-      json5: 2.2.0
-    dev: true
-    optional: true
 
   /lodash.clonedeep/4.5.0:
     resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=, tarball: lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz}
@@ -3975,13 +3921,6 @@ packages:
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=, tarball: prelude-ls/download/prelude-ls-1.1.2.tgz}
     engines: {node: '>= 0.8.0'}
-    dev: true
-
-  /prettier-linter-helpers/1.0.0:
-    resolution: {integrity: sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=, tarball: prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      fast-diff: 1.2.0
     dev: true
 
   /process-nextick-args/2.0.1:
@@ -5180,14 +5119,6 @@ packages:
   /vue-template-es2015-compiler/1.9.1:
     resolution: {integrity: sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=, tarball: vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz}
     dev: true
-
-  /watchpack-chokidar2/2.0.1:
-    resolution: {integrity: sha1-OFAAcu5uzmbzdpk2lQ6hdxvhyVc=, tarball: watchpack-chokidar2/download/watchpack-chokidar2-2.0.1.tgz}
-    requiresBuild: true
-    dependencies:
-      chokidar: registry.nlark.com/chokidar/2.1.8
-    dev: true
-    optional: true
 
   /wbuf/1.7.3:
     resolution: {integrity: sha1-wdjRSTFtPqhShIiVy2oL/oh7h98=, tarball: wbuf/download/wbuf-1.7.3.tgz}
@@ -7152,7 +7083,7 @@ packages:
       readdirp: 2.2.1
       upath: 1.2.0
     optionalDependencies:
-      fsevents: 1.2.13
+      fsevents: registry.nlark.com/fsevents/1.2.13
     dev: true
 
   registry.nlark.com/chokidar/3.5.2:
@@ -7169,7 +7100,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: registry.nlark.com/fsevents/2.3.2
     dev: true
 
   registry.nlark.com/ci-info/1.6.0:
@@ -7662,6 +7593,20 @@ packages:
       vue: registry.npmmirror.com/vue/2.6.14
     dev: false
 
+  registry.nlark.com/emojis-list/2.1.0:
+    resolution: {integrity: sha1-TapNnbAPmBmIDHn6RXrlsJof04k=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/emojis-list/download/emojis-list-2.1.0.tgz}
+    name: emojis-list
+    version: 2.1.0
+    engines: {node: '>= 0.10'}
+    dev: true
+
+  registry.nlark.com/emojis-list/3.0.0:
+    resolution: {integrity: sha1-VXBmIEatKeLpFucariYKvf9Pang=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/emojis-list/download/emojis-list-3.0.0.tgz}
+    name: emojis-list
+    version: 3.0.0
+    engines: {node: '>= 4'}
+    dev: true
+
   registry.nlark.com/enhanced-resolve/0.9.1:
     resolution: {integrity: sha1-TW5omzcl+GCQknzMhs2fFjW4ni4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/enhanced-resolve/download/enhanced-resolve-0.9.1.tgz}
     name: enhanced-resolve
@@ -7743,23 +7688,19 @@ packages:
       webpack: registry.npmmirror.com/webpack/4.46.0
     dev: true
 
-  registry.nlark.com/eslint-plugin-prettier/3.4.1_eslint@6.8.0+prettier@2.4.1:
-    resolution: {integrity: sha1-6d2yAO+289Bf/oOxZlpxavSjh+U=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/eslint-plugin-prettier/download/eslint-plugin-prettier-3.4.1.tgz}
-    id: registry.nlark.com/eslint-plugin-prettier/3.4.1
+  registry.nlark.com/eslint-plugin-prettier/4.0.0_eslint@6.8.0+prettier@2.4.1:
+    resolution: {integrity: sha1-i5nR5LiySnYkcrRWeZICNhnLmOA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/eslint-plugin-prettier/download/eslint-plugin-prettier-4.0.0.tgz}
+    id: registry.nlark.com/eslint-plugin-prettier/4.0.0
     name: eslint-plugin-prettier
-    version: 3.4.1
+    version: 4.0.0
     engines: {node: '>=6.0.0'}
     peerDependencies:
-      eslint: '>=5.0.0'
-      eslint-config-prettier: '*'
-      prettier: '>=1.13.0'
-    peerDependenciesMeta:
-      eslint-config-prettier:
-        optional: true
+      eslint: '>=7.28.0'
+      prettier: '>=2.0.0'
     dependencies:
       eslint: registry.npmmirror.com/eslint/6.8.0
       prettier: registry.nlark.com/prettier/2.4.1
-      prettier-linter-helpers: 1.0.0
+      prettier-linter-helpers: registry.nlark.com/prettier-linter-helpers/1.0.0
     dev: true
 
   registry.nlark.com/eslint-scope/4.0.3:
@@ -7872,6 +7813,12 @@ packages:
       onetime: 5.1.2
       signal-exit: registry.npmmirror.com/signal-exit/3.0.5
       strip-final-newline: registry.nlark.com/strip-final-newline/2.0.0
+    dev: true
+
+  registry.nlark.com/fast-diff/1.2.0:
+    resolution: {integrity: sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/fast-diff/download/fast-diff-1.2.0.tgz}
+    name: fast-diff
+    version: 1.2.0
     dev: true
 
   registry.nlark.com/fast-glob/2.2.7:
@@ -8053,6 +8000,28 @@ packages:
       universalify: 0.1.2
     dev: true
 
+  registry.nlark.com/fsevents/1.2.13:
+    resolution: {integrity: sha1-8yXLBFVZJCi88Rs4M3DvcOO/zDg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/fsevents/download/fsevents-1.2.13.tgz}
+    name: fsevents
+    version: 1.2.13
+    engines: {node: '>= 4.0'}
+    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    requiresBuild: true
+    dependencies:
+      bindings: 1.5.0
+      nan: registry.nlark.com/nan/2.15.0
+    dev: true
+    optional: true
+
+  registry.nlark.com/fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/fsevents/download/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    requiresBuild: true
+    dev: true
+    optional: true
+
   registry.nlark.com/get-symbol-description/1.0.0:
     resolution: {integrity: sha1-f9uByQAQH71WTdXxowr1qtweWNY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/get-symbol-description/download/get-symbol-description-1.0.0.tgz?cache=0&sync_timestamp=1629275307697&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fget-symbol-description%2Fdownload%2Fget-symbol-description-1.0.0.tgz}
     name: get-symbol-description
@@ -8171,6 +8140,13 @@ packages:
     dependencies:
       has-symbols: registry.nlark.com/has-symbols/1.0.2
     dev: true
+
+  registry.nlark.com/hash-sum/2.0.0:
+    resolution: {integrity: sha1-gdAbtd6OpKIUrV1urRtSNGCwtFo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/hash-sum/download/hash-sum-2.0.0.tgz}
+    name: hash-sum
+    version: 2.0.0
+    dev: true
+    optional: true
 
   registry.nlark.com/he/1.2.0:
     resolution: {integrity: sha1-hK5l+n6vsWX922FWauFLrwVmTw8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/he/download/he-1.2.0.tgz}
@@ -8501,11 +8477,50 @@ packages:
     version: 4.0.0
     dev: true
 
+  registry.nlark.com/json5/0.5.1:
+    resolution: {integrity: sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/json5/download/json5-0.5.1.tgz}
+    name: json5
+    version: 0.5.1
+    hasBin: true
+    dev: true
+
+  registry.nlark.com/json5/1.0.1:
+    resolution: {integrity: sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/json5/download/json5-1.0.1.tgz}
+    name: json5
+    version: 1.0.1
+    hasBin: true
+    dependencies:
+      minimist: registry.nlark.com/minimist/1.2.5
+    dev: true
+
+  registry.nlark.com/json5/2.2.0:
+    resolution: {integrity: sha1-Lf7+cgxrpSXZ69kJlQ8FFTFsiaM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/json5/download/json5-2.2.0.tgz}
+    name: json5
+    version: 2.2.0
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      minimist: registry.nlark.com/minimist/1.2.5
+    dev: true
+    optional: true
+
   registry.nlark.com/known-css-properties/0.21.0:
     resolution: {integrity: sha1-FfvQu7g0R/POCdivJH7UfGjt6A0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/known-css-properties/download/known-css-properties-0.21.0.tgz}
     name: known-css-properties
     version: 0.21.0
     dev: true
+
+  registry.nlark.com/loader-utils/2.0.0:
+    resolution: {integrity: sha1-5MrOW4FtQloWa18JfhDNErNgZLA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/loader-utils/download/loader-utils-2.0.0.tgz}
+    name: loader-utils
+    version: 2.0.0
+    engines: {node: '>=8.9.0'}
+    dependencies:
+      big.js: registry.nlark.com/big.js/5.2.2
+      emojis-list: registry.nlark.com/emojis-list/3.0.0
+      json5: registry.nlark.com/json5/2.2.0
+    dev: true
+    optional: true
 
   registry.nlark.com/locate-path/2.0.0:
     resolution: {integrity: sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/locate-path/download/locate-path-2.0.0.tgz?cache=0&sync_timestamp=1629895759963&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flocate-path%2Fdownload%2Flocate-path-2.0.0.tgz}
@@ -8615,6 +8630,12 @@ packages:
     name: mime-db
     version: 1.50.0
     engines: {node: '>= 0.6'}
+    dev: true
+
+  registry.nlark.com/minimist/1.2.5:
+    resolution: {integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/minimist/download/minimist-1.2.5.tgz}
+    name: minimist
+    version: 1.2.5
     dev: true
 
   registry.nlark.com/minipass/3.1.5:
@@ -9249,6 +9270,15 @@ packages:
     name: prepend-http
     version: 1.0.4
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  registry.nlark.com/prettier-linter-helpers/1.0.0:
+    resolution: {integrity: sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz}
+    name: prettier-linter-helpers
+    version: 1.0.0
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      fast-diff: registry.nlark.com/fast-diff/1.2.0
     dev: true
 
   registry.nlark.com/prettier/1.19.1:
@@ -9887,7 +9917,7 @@ packages:
     version: 3.11.0
     dependencies:
       '@types/json5': 0.0.29
-      json5: 1.0.1
+      json5: registry.nlark.com/json5/1.0.1
       minimist: 1.2.5
       strip-bom: 3.0.0
     dev: true
@@ -10077,6 +10107,16 @@ packages:
       vue: registry.npmmirror.com/vue/2.6.14
     dev: false
 
+  registry.nlark.com/watchpack-chokidar2/2.0.1:
+    resolution: {integrity: sha1-OFAAcu5uzmbzdpk2lQ6hdxvhyVc=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/watchpack-chokidar2/download/watchpack-chokidar2-2.0.1.tgz}
+    name: watchpack-chokidar2
+    version: 2.0.1
+    requiresBuild: true
+    dependencies:
+      chokidar: registry.nlark.com/chokidar/2.1.8
+    dev: true
+    optional: true
+
   registry.nlark.com/watchpack/1.7.5:
     resolution: {integrity: sha1-EmfmxV4Lm1vkTCAjrtVDeiwmxFM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/watchpack/download/watchpack-1.7.5.tgz}
     name: watchpack
@@ -10086,7 +10126,7 @@ packages:
       neo-async: 2.6.2
     optionalDependencies:
       chokidar: registry.nlark.com/chokidar/3.5.2
-      watchpack-chokidar2: 2.0.1
+      watchpack-chokidar2: registry.nlark.com/watchpack-chokidar2/2.0.1
     dev: true
 
   registry.nlark.com/webpack-merge/4.2.2:
@@ -12027,8 +12067,8 @@ packages:
       webpack: ^4.1.0 || ^5.0.0-0
     dependencies:
       chalk: registry.nlark.com/chalk/4.1.2
-      hash-sum: 2.0.0
-      loader-utils: 2.0.0
+      hash-sum: registry.nlark.com/hash-sum/2.0.0
+      loader-utils: registry.nlark.com/loader-utils/2.0.0
       webpack: registry.npmmirror.com/webpack/4.46.0
     dev: true
     optional: true
