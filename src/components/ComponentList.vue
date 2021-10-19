@@ -1,10 +1,21 @@
 <template>
-  <div class="component-list" @dragstart="handleDragStart">
-    <div v-for="(item, index) in componentList" :key="index" :data-index="index" class="list" draggable>
-      <span :class="'icon-' + item.icon" class="iconfont"></span>
-      <span>{{ item.label }}</span>
-    </div>
-  </div>
+  <el-tabs style="height: 200px" tab-position="left">
+    <el-tab-pane>
+      <span slot="label"><i class="el-icon-picture"></i></span>
+      <div class="component-list" @dragstart="handleDragStart">
+        <div v-for="(item, index) in componentList" :key="index" :data-index="index" class="list" draggable>
+          <span :class="'icon-' + item.icon" class="iconfont" :title="item.label"></span>
+          <!--                    <span>{{ item.label }}</span>-->
+        </div>
+      </div>
+    </el-tab-pane>
+    <!--        <el-tab-pane><span slot="label"><i class="el-icon-date"></i></span>-->
+    <!--        </el-tab-pane>-->
+    <!--        <el-tab-pane><span slot="label"><i class="el-icon-date"></i></span>-->
+    <!--        </el-tab-pane>-->
+    <!--        <el-tab-pane><span slot="label"><i class="el-icon-date"></i></span>-->
+    <!--        </el-tab-pane>-->
+  </el-tabs>
 </template>
 
 <script>
@@ -23,6 +34,15 @@ export default {
   },
 };
 </script>
+<style>
+.el-tabs__nav-scroll {
+  padding: 0 !important;
+}
+
+.el-tabs--left {
+  height: 100vh !important;
+}
+</style>
 
 <style lang="scss" scoped>
 .component-list {

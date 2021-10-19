@@ -225,5 +225,7 @@ module.exports = {
         'no-plusplus': 0, // 不允许使用++ --运算符
         // 允许props修改
         'vue/no-mutating-props': 0,
+        'import/no-unresolved': [2, { 'ignore': ['konva'] }],
+
     },
 }

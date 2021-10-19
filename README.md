@@ -26,7 +26,8 @@
 ##### 1.功能点
 
 [dgiot-konva-editior](https://github.com/dgiot/dgiot-konva-editior)
-是基于[konvajs](https://github.com/konvajs/konva) 的一个低代码组态编辑器，靠拖拉拽生成页面。
+是基于[konvajs](https://github.com/konvajs/konva) 和 [visual-drag-demo](https://github.com/woai3c/visual-drag-demo)
+的一个低代码组态编辑器，靠拖拉拽生成页面。
 
 ###### dgiotTopo架构交互图
 
@@ -58,7 +59,6 @@
 22. 快捷键
 23. 网格线
 24. 编辑器快照的另一种实现方式
-25.
 
 ##### 2.相关文档
 

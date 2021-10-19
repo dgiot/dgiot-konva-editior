@@ -79,8 +79,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx,vue}": [
       "prettier --tab-width 2 --write",
-      "vue-cli-service lint --fix",
-      "git add"
+      "vue-cli-service lint --fix"
     ]
   }
 }

@@ -75,7 +75,7 @@ export default {
   },
   data() {
     return {
-      activeName: 'monacoEditor',
+      activeName: 'attr',
     };
   },
   computed: {
