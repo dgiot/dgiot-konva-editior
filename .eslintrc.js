@@ -16,7 +16,7 @@ module.exports = {
         'array-element-newline': ['error', 'consistent'],
         indent: 0,
         'object-curly-spacing': ['error', 'always'],
-        'max-len': ['error', 140],
+        'max-len': ['error', 300],
         'linebreak-style': 'off',
         'import/extensions': 'off',
         'import/no-cycle': 'off',
@@ -57,7 +57,7 @@ module.exports = {
         'no-negated-in-lhs': 2, // 不允许在in表达式语句中对最左边的运算数使用取反操作
         'no-obj-calls': 2, // 不允许把全局对象属性当做函数来调用
         'no-regex-spaces': 2, // 正则表达式中不允许出现多个连续空格
-        'quote-props': 2, // 对象中的属性名是否需要用引号引起来
+        'quote-props': 0, // 对象中的属性名是否需要用引号引起来
         'no-sparse-arrays': 2, // 数组中不允许出现空位置
         'no-unreachable': 2, // 在return，throw，continue，break语句后不允许出现不可能到达的语句
         'use-isnan': 2, // 要求检查NaN的时候使用isNaN()

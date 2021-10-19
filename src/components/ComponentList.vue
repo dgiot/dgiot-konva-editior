@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import componentList from "@/konva/components/component-list";
+import componentList from '@/konva/components/component-list';
 
 export default {
   data() {
@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     handleDragStart(e) {
-      e.dataTransfer.setData("index", e.target.dataset.index);
+      e.dataTransfer.setData('index', e.target.dataset.index);
     },
   },
 };

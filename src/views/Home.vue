@@ -64,6 +64,7 @@ import generateID from '@/utils/generateID';
 import { listenGlobalKeyDown } from '@/utils/shortcutKey';
 
 export default {
+  name: 'Home',
   components: {
     Editor,
     MonacoEditor,
