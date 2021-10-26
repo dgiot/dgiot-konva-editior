@@ -35,7 +35,7 @@ specifiers:
   stylelint-webpack-plugin: 3.0.1
   vue: 2.6.14
   vue-monaco-editor: 0.0.19
-  vue-router: 3.5.2
+  vue-router: 3.5.3
   vue-template-compiler: 2.6.14
   vuex: 3.6.2
   webpack: ^4.44.2
@@ -47,7 +47,7 @@ dependencies:
   monaco-editor: 0.29.1
   vue: 2.6.14
   vue-monaco-editor: 0.0.19
-  vue-router: 3.5.2
+  vue-router: 3.5.3
   vuex: 3.6.2_vue@2.6.14
 
 devDependencies:
@@ -10385,8 +10385,8 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /vue-router/3.5.2:
-    resolution: {integrity: sha512-807gn82hTnjCYGrnF3eNmIw/dk7/GE4B5h69BlyCK9KHASwSloD1Sjcn06zg9fVG4fYH2DrsNBZkpLtb25WtaQ==}
+  /vue-router/3.5.3:
+    resolution: {integrity: sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==}
     dev: false
 
   /vue-style-loader/4.1.3:
