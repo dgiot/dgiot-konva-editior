@@ -30,7 +30,7 @@
     "monaco-editor": "0.29.1",
     "vue": "2.6.14",
     "vue-monaco-editor": "0.0.19",
-    "vue-router": "3.5.2",
+    "vue-router": "3.5.3",
     "vuex": "3.6.2"
   },
   "devDependencies": {
