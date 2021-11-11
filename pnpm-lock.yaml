@@ -32,7 +32,7 @@ specifiers:
   sass-loader: ^8.0.2
   stylelint: 13.13.1
   stylelint-config-standard: 22.0.0
-  stylelint-webpack-plugin: 3.0.1
+  stylelint-webpack-plugin: 3.1.0
   vue: 2.6.14
   vue-monaco-editor: 0.0.19
   vue-router: 3.5.2
@@ -78,7 +78,7 @@ devDependencies:
   sass-loader: 8.0.2_sass@1.43.2+webpack@4.46.0
   stylelint: 13.13.1
   stylelint-config-standard: 22.0.0_stylelint@13.13.1
-  stylelint-webpack-plugin: 3.0.1_stylelint@13.13.1+webpack@4.46.0
+  stylelint-webpack-plugin: 3.1.0_stylelint@13.13.1+webpack@4.46.0
   vue-template-compiler: 2.6.14
   webpack: 4.46.0
 
@@ -6347,8 +6347,8 @@ packages:
     resolution: {integrity: sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==}
     dev: true
 
-  /jest-worker/27.3.0:
-    resolution: {integrity: sha512-xTTvvJqOjKBqE1AmwDHiQN8qzp9VoT981LtfXA+XiJVxHn4435vpnrzVcJ6v/ESiuB+IXPjZakn/ppT00xBCWA==}
+  /jest-worker/27.3.1:
+    resolution: {integrity: sha512-ks3WCzsiZaOPJl/oMsDjaf0TRiSv7ctNgs0FqRr2nARsovz6AWWy4oLElwcquGSz692DzgZQrCLScPNs5YlC4g==}
     engines: {node: '>= 10.13.0'}
     dependencies:
       '@types/node': 16.11.1
@@ -9593,16 +9593,16 @@ packages:
       stylelint-config-recommended: 5.0.0_stylelint@13.13.1
     dev: true
 
-  /stylelint-webpack-plugin/3.0.1_stylelint@13.13.1+webpack@4.46.0:
-    resolution: {integrity: sha512-1qUJTjXSGEGxsdYelZCmDZgA87H6/XR0xrl5a4mwAlIcWcNvr0QeH0e0ZY3ZJTY/rJ2xjKnt5ETvFzOZpPbuDg==}
+  /stylelint-webpack-plugin/3.1.0_stylelint@13.13.1+webpack@4.46.0:
+    resolution: {integrity: sha512-qKBj9s2BVnxwQXdqRKd637gtASYel6FA/a9PfyfsplUqiBmBjJeeTrcJPp9v/HEN4FRw2CJDNbO2xuYUF7DsuA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
-      stylelint: ^13.0.0
+      stylelint: ^13.0.0 || ^14.0.0
       webpack: ^5.0.0
     dependencies:
       '@types/stylelint': 13.13.3
       globby: 11.0.4
-      jest-worker: 27.3.0
+      jest-worker: 27.3.1
       micromatch: 4.0.4
       normalize-path: 3.0.0
       schema-utils: 3.1.1
