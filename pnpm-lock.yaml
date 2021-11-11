@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-vue: ^6.2.2
   husky: 7.0.2
   konva: 8.2.2
-  lint-staged: 11.2.3
+  lint-staged: 11.2.6
   loadsh: 0.0.4
   monaco-editor: 0.29.1
   prettier: 2.4.1
@@ -71,7 +71,7 @@ devDependencies:
   eslint-plugin-vue: 6.2.2_eslint@6.8.0
   husky: 7.0.2
   konva: 8.2.2
-  lint-staged: 11.2.3
+  lint-staged: 11.2.6
   prettier: 2.4.1
   pushstate-server: 3.1.0
   sass: 1.43.2
@@ -6524,8 +6524,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.3:
-    resolution: {integrity: sha512-Tfmhk8O2XFMD25EswHPv+OYhUjsijy5D7liTdxeXvhG2rsadmOLFtyj8lmlfoFFXY8oXWAIOKpoI+lJe1DB1mw==}
+  /lint-staged/11.2.6:
+    resolution: {integrity: sha512-Vti55pUnpvPE0J9936lKl0ngVeTdSZpEdTNhASbkaWX7J5R9OEifo1INBGQuGW4zmy6OG+TcWPJ3m5yuy5Q8Tg==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
