@@ -16,7 +16,7 @@ specifiers:
   core-js: 3.18.3
   cross-env: 7.0.3
   cz-conventional-changelog: 3.3.0
-  element-ui: 2.15.6
+  element-ui: 2.15.7
   eslint: ^6.8.0
   eslint-plugin-import: 2.25.2
   eslint-plugin-prettier: 3.4.1
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   core-js: 3.18.3
-  element-ui: 2.15.6_vue@2.6.14
+  element-ui: 2.15.7_vue@2.6.14
   loadsh: 0.0.4
   monaco-editor: 0.29.1
   vue: 2.6.14
@@ -4174,8 +4174,8 @@ packages:
     resolution: {integrity: sha512-qcLvDUPf8DSIMWarHT2ptgcqrYg62n3vPA7vhrOF24d8UNzbUBaHu2CySiENR3nEDzYgaN60071t0F6KLYMQ7Q==}
     dev: true
 
-  /element-ui/2.15.6_vue@2.6.14:
-    resolution: {integrity: sha512-rcYXEKd/j2G0AgficAOk1Zd1AsnHRkhmrK4yLHmNOiimU2JfsywgfKUjMoFuT6pQx0luhovj8lFjpE4Fnt58Iw==}
+  /element-ui/2.15.7_vue@2.6.14:
+    resolution: {integrity: sha512-+J6rnXajxzLwV6w8Q6bf7Yqzk1FO1ewbIrCy/4B5alnd7tj8WEpfQoAvISirVaUGVGy77d9Ji3o2bF4f0AsJLQ==}
     peerDependencies:
       vue: ^2.5.17
     dependencies:
