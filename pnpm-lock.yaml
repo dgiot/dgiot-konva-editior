@@ -10,7 +10,7 @@ specifiers:
   '@vue/eslint-config-prettier': ^6.0.0
   babel-eslint: ^10.1.0
   babel-plugin-transform-remove-console: ^6.9.4
-  chalk: 4.1.2
+  chalk: 5.0.0
   commitizen: 4.2.4
   compression-webpack-plugin: ^6.1.1
   core-js: 3.18.3
@@ -60,7 +60,7 @@ devDependencies:
   '@vue/eslint-config-prettier': 6.0.0_bf649614f2c19d1264924ff3af71f45e
   babel-eslint: 10.1.0_eslint@6.8.0
   babel-plugin-transform-remove-console: 6.9.4
-  chalk: 4.1.2
+  chalk: 5.0.0
   commitizen: 4.2.4
   compression-webpack-plugin: 6.1.1_webpack@4.46.0
   cross-env: 7.0.3
@@ -2985,6 +2985,11 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.0.0:
+    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /character-entities-legacy/1.1.4:
