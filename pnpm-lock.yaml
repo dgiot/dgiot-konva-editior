@@ -13,7 +13,7 @@ specifiers:
   chalk: 4.1.2
   commitizen: 4.2.4
   compression-webpack-plugin: ^6.1.1
-  core-js: 3.18.3
+  core-js: 3.19.3
   cross-env: 7.0.3
   cz-conventional-changelog: 3.3.0
   element-ui: 2.15.6
@@ -41,7 +41,7 @@ specifiers:
   webpack: ^4.44.2
 
 dependencies:
-  core-js: 3.18.3
+  core-js: 3.19.3
   element-ui: 2.15.6_vue@2.6.14
   loadsh: 0.0.4
   monaco-editor: 0.29.1
@@ -1660,7 +1660,7 @@ packages:
       '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.15.8
       '@vue/babel-preset-jsx': 1.2.4_@babel+core@7.15.8
       babel-plugin-dynamic-import-node: 2.3.3
-      core-js: 3.18.3
+      core-js: 3.19.3
       core-js-compat: 3.18.3
       semver: 6.3.0
       vue: 2.6.14
@@ -3484,8 +3484,8 @@ packages:
     requiresBuild: true
     dev: false
 
-  /core-js/3.18.3:
-    resolution: {integrity: sha512-tReEhtMReZaPFVw7dajMx0vlsz3oOb8ajgPoHVYGxr8ErnZ6PcYEvvmjGmXlfpnxpkYSdOQttjB+MvVbCGfvLw==}
+  /core-js/3.19.3:
+    resolution: {integrity: sha512-LeLBMgEGSsG7giquSzvgBrTS7V5UL6ks3eQlUSbN8dJStlLFiRzUm5iqsRyzUB8carhfKjkJ2vzKqE6z1Vga9g==}
     requiresBuild: true
 
   /core-util-is/1.0.2:
