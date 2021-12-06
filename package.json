@@ -24,7 +24,7 @@
     "ncu-u": "ncu -u"
   },
   "dependencies": {
-    "core-js": "3.18.3",
+    "core-js": "3.19.3",
     "element-ui": "2.15.6",
     "loadsh": "0.0.4",
     "monaco-editor": "0.29.1",
