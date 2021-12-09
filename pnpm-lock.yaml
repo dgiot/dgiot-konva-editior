@@ -22,7 +22,7 @@ specifiers:
   eslint-plugin-prettier: 3.4.1
   eslint-plugin-vue: ^6.2.2
   husky: 7.0.2
-  konva: 8.2.2
+  konva: 8.3.1
   lint-staged: 11.2.3
   loadsh: 0.0.4
   monaco-editor: 0.29.1
@@ -70,7 +70,7 @@ devDependencies:
   eslint-plugin-prettier: 3.4.1_eslint@6.8.0+prettier@2.4.1
   eslint-plugin-vue: 6.2.2_eslint@6.8.0
   husky: 7.0.2
-  konva: 8.2.2
+  konva: 8.3.1
   lint-staged: 11.2.3
   prettier: 2.4.1
   pushstate-server: 3.1.0
@@ -6495,8 +6495,8 @@ packages:
     resolution: {integrity: sha512-sZLUnTqimCkvkgRS+kbPlYW5o8q5w1cu+uIisKpEWkj31I8mx8kNG162DwRav8Zirkva6N5uoFsm9kzK4mUXjw==}
     dev: true
 
-  /konva/8.2.2:
-    resolution: {integrity: sha512-O6Ybw1V5x/PNX4Tc+h/U9LCuyoVZe+XaWc23XKxKs0xIbFyTkvdAJEsw3XQw+DsMDTO56UiTvspq5pfO75xEOg==}
+  /konva/8.3.1:
+    resolution: {integrity: sha512-9YVM/nKWKTdGppPkhVY+E1FI+brrSmPygPO1qUSH2Dd7q0bgCX8V9DLqOp15myY7Wxmy5JDx9dWdd0fQZpikZw==}
     dev: true
 
   /launch-editor-middleware/2.2.1:
