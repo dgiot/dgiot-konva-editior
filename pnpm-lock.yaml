@@ -25,7 +25,7 @@ specifiers:
   konva: 8.2.2
   lint-staged: 11.2.3
   loadsh: 0.0.4
-  monaco-editor: 0.29.1
+  monaco-editor: 0.31.0
   prettier: 2.4.1
   pushstate-server: 3.1.0
   sass: ^1.26.5
@@ -44,7 +44,7 @@ dependencies:
   core-js: 3.18.3
   element-ui: 2.15.6_vue@2.6.14
   loadsh: 0.0.4
-  monaco-editor: 0.29.1
+  monaco-editor: 0.31.0
   vue: 2.6.14
   vue-monaco-editor: 0.0.19
   vue-router: 3.5.2
@@ -7103,8 +7103,8 @@ packages:
     hasBin: true
     dev: true
 
-  /monaco-editor/0.29.1:
-    resolution: {integrity: sha512-rguaEG/zrPQSaKzQB7IfX/PpNa0qxF1FY8ZXRkN4WIl8qZdTQRSRJCtRto7IMcSgrU6H53RXI+fTcywOBC4aVw==}
+  /monaco-editor/0.31.0:
+    resolution: {integrity: sha512-H3QmysEwxxY8oxmFhIFcY9JkuwilUDa6txdAxb797cVr7XFZX27a3SDwcGJmTlV9iGPwdh132r3KKCS5aNL4Gg==}
     dev: false
 
   /move-concurrently/1.0.1:

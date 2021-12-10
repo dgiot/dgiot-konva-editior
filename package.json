@@ -27,7 +27,7 @@
     "core-js": "3.18.3",
     "element-ui": "2.15.6",
     "loadsh": "0.0.4",
-    "monaco-editor": "0.29.1",
+    "monaco-editor": "0.31.0",
     "vue": "2.6.14",
     "vue-monaco-editor": "0.0.19",
     "vue-router": "3.5.2",
